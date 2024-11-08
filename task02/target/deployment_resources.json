@@ -1,10 +1,10 @@
 {
   "hello_world" : {
     "name" : "hello_world",
-    "lambda_path" : "C:\\Users\\juluri_varsha\\IdeaProjects\\aws-project\\task02",
+    "lambda_path" : "C:\\Users\\mahidhar_reddy\\task03\\task03",
     "version" : "1.0.0",
-    "func_name" : "com.task02.HelloWorld",
-    "deployment_package" : "task02-1.0.0.jar",
+    "func_name" : "com.task03.HelloWorld",
+    "deployment_package" : "task03-1.0.0.jar",
     "resource_type" : "lambda",
     "runtime" : "java11",
     "architectures" : [ "x86_64" ],
@@ -16,14 +16,9 @@
     "dependencies" : [ ],
     "event_sources" : [ ],
     "env_variables" : { },
-    "tags" : { },
     "publish_version" : true,
-    "alias" : "learn",
+    "alias" : "${lambdas_alias_name}",
     "logs_expiration" : "${logs_expiration}",
-    "snap_start" : "None",
-    "url_config" : {
-      "auth_type" : "NONE",
-      "invoke_mode" : "BUFFERED"
-    }
+    "snap_start" : "None"
   }
 }
